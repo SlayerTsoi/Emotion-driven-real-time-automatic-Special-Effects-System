@@ -1,0 +1,10 @@
+opencv-python==4.5.5.62 
+keras
+pandas
+numpy
+imutils
+scikit-learn
+tensorflow
+hdf5storage
+yacs
+mediapipe
