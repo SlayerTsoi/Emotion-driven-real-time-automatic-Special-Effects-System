@@ -1,14 +1,14 @@
-Emotion-driven Real-time Automatic Special Effects System
+# Emotion-driven Real-time Automatic Special Effects System
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Introduction
+## 📖 Introduction
 
 This project implements a **real-time automatic special effects system driven by emotion recognition**. Using a camera to capture facial expressions, the system identifies emotions (e.g., happiness, sadness, surprise) in real time and automatically adds matching visual effects to the video stream. It enhances interactive experiences such as video calls, live streaming, and entertainment applications.
 
-Features
+## ✨ Features
 
 - **Real-time face detection**: Utilizes Haar Cascade for fast face localization.
 - **Facial landmark detection**: Accurately detects facial key points to improve emotion classification.
@@ -16,7 +16,7 @@ Features
 - **Automatic effects**: Triggers corresponding visual effects based on the detected emotion.
 - **Real-time performance**: Optimized algorithms ensure smooth real-time video processing.
 
-System Architecture
+## 🏗️ System Architecture
 ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
 │ Camera Input │ ──▶ │ Face Detection │ ──▶ │ Emotion Model │
 └─────────────────┘ └─────────────────┘ └─────────────────┘
@@ -26,22 +26,26 @@ System Architecture
 │ Effect Output │ ◀── │ Effect Mapping │ ◀── │ Emotion Result │
 └─────────────────┘ └─────────────────┘ └─────────────────┘
 
-Requirements
+text
+
+## 📋 Requirements
 
 - Python 3.7 or higher
 - A camera supported by OpenCV
 - 4GB+ RAM recommended; modern CPU or CUDA-enabled GPU for better performance
 
-Quick Start
+## 🚀 Quick Start
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/SlayerTsoi/Emotion-driven-real-time-automatic-Special-Effects-System.git
 cd Emotion-driven-real-time-automatic-Special-Effects-System
 2. Install dependencies
-bash
+```
+```bash
 pip install -r requirements.txt
+```
 requirements.txt typically includes:
 
 opencv-python
@@ -57,16 +61,19 @@ other necessary libraries
 3. Run the project
 Full system:
 
-bash
+```bash
 python run.py
+```
 Run emotion detection module only (for debugging):
 
-bash
+```bash
 python run_emotion_detection.py
+```
 Run landmark detection module only (for debugging):
 
-bash
+```bash
 python run_landmark_detection.py
+```
 4. Usage
 After launching, the system will automatically open the camera.
 
@@ -90,6 +97,7 @@ Emotion-driven-real-time-automatic-Special-Effects-System/
 ├── run_landmark_detection.py   # Standalone landmark detection
 ├── requirements.txt            # Python dependencies
 └── README.txt                  # Original readme file
+
 🔧 Configuration
 You can adjust effect styles or sensitivity by modifying the following parameters:
 
@@ -98,6 +106,7 @@ EMOTION_THRESHOLD	Confidence threshold for emotion classification	0.6
 EFFECT_INTENSITY	Intensity factor for visual effects	0.8
 FACE_DETECT_SCALE	Scale factor for face detection	1.1
 CAMERA_INDEX	Camera device index	0
+
 🧠 Model Training
 If you wish to retrain the emotion recognition model:
 
@@ -107,8 +116,9 @@ Place the dataset in train/data/.
 
 Run the training script:
 
-bash
+```bash
 python train/train_emotion_model.py
+```
 The trained model will be saved in the models/ directory.
 
 📊 Performance
