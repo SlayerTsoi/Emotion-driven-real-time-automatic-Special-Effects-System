@@ -17,14 +17,7 @@ This project implements a **real-time automatic special effects system driven by
 - **Real-time performance**: Optimized algorithms ensure smooth real-time video processing.
 
 ## 🏗️ System Architecture
-┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-│ Camera Input │ ──▶ │ Face Detection │ ──▶ │ Emotion Model │
-└─────────────────┘ └─────────────────┘ └─────────────────┘
-│
-▼
-┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-│ Effect Output │ ◀── │ Effect Mapping │ ◀── │ Emotion Result │
-└─────────────────┘ └─────────────────┘ └─────────────────┘
+<img width="1344" height="768" alt="system_architecture_v1_1" src="https://github.com/user-attachments/assets/f83004a8-cbf1-4daa-a9fd-7a25adb57974" />
 
 text
 
