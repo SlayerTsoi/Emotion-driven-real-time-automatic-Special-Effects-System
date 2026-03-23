@@ -118,6 +118,7 @@ CPU (Intel i5)	15-20	~50
 GPU (NVIDIA GTX)	25-30	~30
 Note: Actual performance depends on hardware and effect complexity.
 
+
 🛠️ Tech Stack
 OpenCV: Image processing and face detection
 
@@ -126,6 +127,7 @@ TensorFlow / PyTorch: Deep learning inference
 NumPy: Numerical computations
 
 dlib / MediaPipe (optional): Facial landmark detection
+
 
 📌 Important Notes
 Pre-trained model weights may be downloaded on the first run.
