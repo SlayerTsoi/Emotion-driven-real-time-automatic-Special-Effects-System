@@ -1,14 +1,14 @@
-# Emotion-driven Real-time Automatic Special Effects System
+Emotion-driven Real-time Automatic Special Effects System
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 📖 Introduction
+Introduction
 
 This project implements a **real-time automatic special effects system driven by emotion recognition**. Using a camera to capture facial expressions, the system identifies emotions (e.g., happiness, sadness, surprise) in real time and automatically adds matching visual effects to the video stream. It enhances interactive experiences such as video calls, live streaming, and entertainment applications.
 
-## ✨ Features
+Features
 
 - **Real-time face detection**: Utilizes Haar Cascade for fast face localization.
 - **Facial landmark detection**: Accurately detects facial key points to improve emotion classification.
@@ -16,7 +16,7 @@ This project implements a **real-time automatic special effects system driven by
 - **Automatic effects**: Triggers corresponding visual effects based on the detected emotion.
 - **Real-time performance**: Optimized algorithms ensure smooth real-time video processing.
 
-## 🏗️ System Architecture
+System Architecture
 ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
 │ Camera Input │ ──▶ │ Face Detection │ ──▶ │ Emotion Model │
 └─────────────────┘ └─────────────────┘ └─────────────────┘
@@ -26,15 +26,15 @@ This project implements a **real-time automatic special effects system driven by
 │ Effect Output │ ◀── │ Effect Mapping │ ◀── │ Emotion Result │
 └─────────────────┘ └─────────────────┘ └─────────────────┘
 
-## 📋 Requirements
+Requirements
 
 - Python 3.7 or higher
 - A camera supported by OpenCV
 - 4GB+ RAM recommended; modern CPU or CUDA-enabled GPU for better performance
 
-## 🚀 Quick Start
+Quick Start
 
-### 1. Clone the repository
+1. Clone the repository
 
 ```bash
 git clone https://github.com/SlayerTsoi/Emotion-driven-real-time-automatic-Special-Effects-System.git
