@@ -77,17 +77,17 @@ Visual effects will be overlaid based on the current emotion.
 Press q to quit.
 
 📁 File Structure
-text
-Emotion-driven-real-time-automatic-Special-Effects-System/
-├── haarcascade_files/          # Haar Cascade face detection models
-├── images/                     # Project images and resources
-├── models/                     # Trained emotion recognition models
-├── train/                      # Training code and data
-├── run.py                      # Main entry point
-├── run_emotion_detection.py    # Standalone emotion detection
-├── run_landmark_detection.py   # Standalone landmark detection
-├── requirements.txt            # Python dependencies
-└── README.txt                  # Original readme file
+
+Emotion-driven-real-time-automatic-Special-Effects-System/</br>
+├── haarcascade_files/          # Haar Cascade face detection models</br>
+├── images/                     # Project images and resources</br>
+├── models/                     # Trained emotion recognition models</br>
+├── train/                      # Training code and data</br>
+├── run.py                      # Main entry point</br>
+├── run_emotion_detection.py    # Standalone emotion detection</br>
+├── run_landmark_detection.py   # Standalone landmark detection</br>
+├── requirements.txt            # Python dependencies</br>
+└── README.txt                  # Original readme file</br>
 
 🔧 Configuration
 You can adjust effect styles or sensitivity by modifying the following parameters:
